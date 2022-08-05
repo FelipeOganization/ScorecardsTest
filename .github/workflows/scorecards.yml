@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '42 7 * * 5'
   push:
-    branches: [ "main" ]
+    branches: [ "main", "v0.1", "v0.2", "v0.3" ]
 
 # Declare default permissions as read only.
 permissions: read-all
